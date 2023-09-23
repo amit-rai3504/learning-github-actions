@@ -30,3 +30,6 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: run python code
       run: python3 enable-shiled-new-accounts.py
+    - name: Output Metadata
+      run: echo "${{ toJSON(github) }}"
+
