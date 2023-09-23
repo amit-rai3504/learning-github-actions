@@ -44,7 +44,6 @@ event = {
       "sourceIPAddress": "AWS Internal",
       "userAgent": "AWS Internal",
       "eventID": "0000000-0000-0000-1111-123456789012",
-      "readOnly": false,
       "eventType": "AwsServiceEvent",
       "serviceEventDetails": {
         "createAccountStatus": {
